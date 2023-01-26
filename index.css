@@ -1,0 +1,131 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 3rem;
+    font-family: 'Merienda', cursive;
+    color: aliceblue;
+    line-height: 1.7;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding-left: 18px;
+}
+.down-btn{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 28%;
+    /* z-index: -1; */
+}
+#features{
+    padding: 7% 15% ;
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.col-feat{
+    padding: 3%;
+    text-align: center;
+}
+.feat-img{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    /* padding-left: 3%; */
+    color: #BfBfBf;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    /* padding:20px 20px ; */
+    color: #fff;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'Merienda', cursive;
+}
+.test-img{
+    width: 20%;
+    border-radius: 100%;
+}
+#press{
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #ef8172;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 3% 15%;;
+}
+.sign-up{
+    width: 100%;
+    padding-bottom: 10px;
+}
+#pricing{
+    padding: 100px ;
+    text-align: center;
+}
+.card{
+    width: 30%;
+    margin-right: 30px;
+}
+.price{
+    margin-top: 30px;
+    /* margin-left: 20px; */
+}
+@media (max-width :1000px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3% 15%;
+}
+.cta{
+    margin-top: 5%;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bolder;
+}
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 8% 15%;   
+}
+.foot-img{
+    width: 48px;
+    height: 24px;
+    display: inline;
+    margin-left: 20px;
+}
+.foot-row{
+    padding-left: 300px;
+    text-align: center;
+    margin-bottom: 25px;
+}
